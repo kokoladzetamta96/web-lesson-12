@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  background-color: #191a19;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 113px;
+  padding-left: 113px;
+}
+
+.nav-list {
+  color: white;
+  display: flex;
+  column-gap: 23px;
+}
+.nav-list a{
+    color: white;
+}
+.header-right a{
+    color: white;
+}
