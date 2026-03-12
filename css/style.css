@@ -48,6 +48,22 @@
   gap: 24px;
   font-size: 24px;
 }
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.arrow {
+  color: white;
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  transform: rotate(45deg);
+  margin-top: -3px;
+}
 .contact-btn {
   background-color: #ff7420;
   padding: 15px 30px;
@@ -57,8 +73,10 @@
 .hero-section {
   background-image: url("../image/cover.svg");
   background-size: cover;
-  position: center;
+  background-position: center;
   background-repeat: no-repeat;
+  margin-top: 130px;
+  min-height: 750px;
 }
 
 .hero-wrap {
@@ -75,7 +93,7 @@
   max-width: 460px;
   margin-top: 150px;
 }
-.hero-text span {
+.hero-text span h1 {
   color: #ff7420;
 }
 .hero-text p {
@@ -97,7 +115,53 @@
   padding: 15px 30px;
   border-radius: 15px;
   font-size: 24px;
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  white-space: nowrap;
+  line-height: 1;
 }
+.btn-text {
+  display: block;
+  line-height: 1;
+  color: white;
+}
+.circle-arrow {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle-arrow::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: white;
+}
+
+/* .circle-arrow::after {
+  content: "→";
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+  color: white;
+} */
+.circle-arrow::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+}
+
 .btn-secondary {
   background-color: white;
   color: black;
@@ -105,7 +169,6 @@
   border-radius: 15px;
   font-size: 24px;
 }
-.btn-primary,
-.btn-secondary {
-  display: inline-block;
-}
+/* <!-- Featured Project section --> */
+/* <!-- testimonal section --> */
+/* <!-- contact section --> */
