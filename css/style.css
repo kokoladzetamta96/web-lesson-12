@@ -150,13 +150,6 @@
   background: white;
 }
 
-/* .circle-arrow::after {
-  content: "→";
-  font-size: 10px;
-  font-weight: 800;
-  line-height: 1;
-  color: white;
-} */
 .circle-arrow::after {
   content: "";
   width: 8px;
@@ -178,7 +171,7 @@
 /* <!-- contact section --> */
 .container {
   max-width: 1503px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 .contact-section {
