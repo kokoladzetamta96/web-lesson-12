@@ -1,10 +1,14 @@
 /*     <!-- header --> */
+.body{
+    margin: 0;
+}
 .header {
   width: 100%;
   background-color: #191a19;
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 .header-wrap {
@@ -75,7 +79,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 130px;
+  padding-top: 130px;
   min-height: 750px;
 }
 
@@ -172,3 +176,130 @@
 /* <!-- Featured Project section --> */
 /* <!-- testimonal section --> */
 /* <!-- contact section --> */
+.container {
+  max-width: 1503px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-section {
+  padding: 120px 0;
+  background:#191a19;
+}
+.contact-title {
+  margin-bottom: 120px;
+  text-align: center;
+  font-size: 48px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.contact-content {
+  display: flex;
+  gap: 40px;
+}
+.quote-box {
+  width: 963px;
+  color: white;
+  flex: 2;
+  padding: 50px;
+  border-radius: 15px;
+  background: #ff7420;
+  flex: 2;
+}
+.contact-info-box {
+  width: 499px;
+  color: white;
+  flex: 1;
+  padding: 50px;
+  border-radius: 15px;
+  background: #ff7420;
+}
+.quote-form input,
+.quote-form select {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  padding: 0 20px;
+  font-size: 20px;
+}
+.quote-form textarea {
+  display: block;
+  width: 100%;
+  height: 140px;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  resize: none;
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.qoute-form {
+  margin-top: 40px;
+}
+.submit-btn {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: #191a19;
+  color: white;
+  font-size: 20px;
+}
+.quote-text {
+  margin-top: 24px;
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+.quote-title {
+  font-size: 24px;
+}
+.form-row select {
+  color: #191a1980;
+}
+/* contact-info-box */
+.contact-info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.info-item {
+  margin-bottom: 15px;
+}
+.info-label {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.info-text{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.info-title{
+    font-size: 24px;
+}
+.info-message{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.info-btn{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background: #191A19;
+}
